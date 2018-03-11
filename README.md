@@ -8,3 +8,5 @@
 - Prototype (Прототип) - [Python examples](/creational_patterns/prototype/);
 - Singleton (Одиночка) - [Python examples](/creational_patterns/singleton/);
 
+### Structural patterns (Структурные паттерны) ###
+
