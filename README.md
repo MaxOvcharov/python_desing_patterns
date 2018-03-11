@@ -6,4 +6,5 @@
 - Builder (Построитель) - [Python examples](/creational_patterns/builder/);
 - Factory method (Фабричный метод) - [Python examples](/creational_patterns/factory_method/);
 - Prototype (Прототип) - [Python examples](/creational_patterns/prototype/);
+- Singleton (Одиночка) - [Python examples](/creational_patterns/singleton/);
 
