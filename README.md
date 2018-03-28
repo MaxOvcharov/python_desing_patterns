@@ -11,3 +11,4 @@
 ### Structural patterns (Структурные паттерны) ###
 
 - Adapter (Адаптер) - [Python examples](/structural_patterns/adapter);
+- Bridge (Мост) - [Python examples](/structural_patterns/bridge);
