@@ -12,3 +12,4 @@
 
 - Adapter (Адаптер) - [Python examples](/structural_patterns/adapter);
 - Bridge (Мост) - [Python examples](/structural_patterns/bridge);
+- Composite (Компоновщик) - [Python examples](/structural_patterns/composite);
