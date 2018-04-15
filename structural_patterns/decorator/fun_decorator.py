@@ -33,6 +33,15 @@ def simple_for_loop():
     return res
 
 
+class SimpleCalculator:
+
+    @staticmethod
+    @timer
+    def sqrt():
+        return [i*i for i in range(100)]
+
+
 if __name__ == '__main__':
     list_for_loop()
+    SimpleCalculator.sqrt()
     timer(simple_for_loop)()
