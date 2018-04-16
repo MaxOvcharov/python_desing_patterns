@@ -1,5 +1,5 @@
-import time
 import functools
+import time
 from datetime import datetime
 
 
