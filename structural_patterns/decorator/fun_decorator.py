@@ -14,7 +14,6 @@ def timer(func):
         te = time.time()
         print(f'STOP timer: {te}')
         print(f'RESULT - {func.__name__!r}: {(te - ts) * 1000:2.4f} ms')
-        # print('*/*/*' * 10 + '\n')
         return res
 
     print(f'END INIT timer: {time.time()}\n')
