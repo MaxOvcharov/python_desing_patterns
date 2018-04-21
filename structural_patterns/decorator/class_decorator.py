@@ -7,56 +7,6 @@ import numbers
 import re
 
 
-def main():
-    try:
-        Book("", "ISBN 0321635906", 54.99, 7830)
-        assert False, "failed empty string test"
-    except ValueError as err:
-        assert str(err).endswith("may not be empty")
-    try:
-        Book(88, "ISBN 0321635906", 54.99, 7830)
-        assert False, "failed non-string test"
-    except ValueError as err:
-        assert str(err).endswith("must be of type str")
-    try:
-        Book("Title", "ISBN 0321635907", 54.99, 7830)
-        assert False, "failed invalid ISBN test"
-    except ValueError as err:
-        assert str(err).endswith("is not a valid ISBN")
-    try:
-        Book("Title", "ISBN 0321635906", 0, 7830)
-        assert False, "failed too small test"
-    except ValueError as err:
-        assert str(err).endswith("is too small")
-    try:
-        Book("Title", "ISBN 0321635906", 2e6, 7830)
-        assert False, "failed too big test"
-    except ValueError as err:
-        assert str(err).endswith("is too big")
-    try:
-        Book("Title", "ISBN 0321635906", 100, "x17")
-        assert False, "failed non-number test"
-    except ValueError as err:
-        assert str(err).endswith("must be a number")
-
-    books = []
-    cls_exp = (
-            ("Advanced Qt Programming", "ISBN 0321635906", 54.99, 7830),
-            ("Programming in Go", "ISBN 0321774639", 44.99, 5220),
-            ("Programming in Python 3", "ISBN-13: 9780321680563", 49.99,
-             10960),
-            ("Rapid GUI Programming with Python and Qt", "ISBN 0132354187",
-             54.99, 11735),
-            ("C++ GUI Programming with Qt 4", "0132354160", 69.99, 15872)
-    )
-
-    for title, isbn, price, quantity in cls_exp:
-        books.append(Book(title, isbn, price, quantity))
-
-    for book in books:
-        print(book)
-
-
 def is_non_empty_str(name, value):
     if not isinstance(value, str):
         raise ValueError(f"{name} must be of type str")
@@ -157,6 +107,56 @@ class Book:
 
     def __repr__(self):
         return "Book({0.title!r}, {0.isbn!r}, {0.price!r}, {0.quantity!r})".format(self)
+
+
+def main():
+    try:
+        Book("", "ISBN 0321635906", 54.99, 7830)
+        assert False, "failed empty string test"
+    except ValueError as err:
+        assert str(err).endswith("may not be empty")
+    try:
+        Book(88, "ISBN 0321635906", 54.99, 7830)
+        assert False, "failed non-string test"
+    except ValueError as err:
+        assert str(err).endswith("must be of type str")
+    try:
+        Book("Title", "ISBN 0321635907", 54.99, 7830)
+        assert False, "failed invalid ISBN test"
+    except ValueError as err:
+        assert str(err).endswith("is not a valid ISBN")
+    try:
+        Book("Title", "ISBN 0321635906", 0, 7830)
+        assert False, "failed too small test"
+    except ValueError as err:
+        assert str(err).endswith("is too small")
+    try:
+        Book("Title", "ISBN 0321635906", 2e6, 7830)
+        assert False, "failed too big test"
+    except ValueError as err:
+        assert str(err).endswith("is too big")
+    try:
+        Book("Title", "ISBN 0321635906", 100, "x17")
+        assert False, "failed non-number test"
+    except ValueError as err:
+        assert str(err).endswith("must be a number")
+
+    books = []
+    cls_exp = (
+            ("Advanced Qt Programming", "ISBN 0321635906", 54.99, 7830),
+            ("Programming in Go", "ISBN 0321774639", 44.99, 5220),
+            ("Programming in Python 3", "ISBN-13: 9780321680563", 49.99,
+             10960),
+            ("Rapid GUI Programming with Python and Qt", "ISBN 0132354187",
+             54.99, 11735),
+            ("C++ GUI Programming with Qt 4", "0132354160", 69.99, 15872)
+    )
+
+    for title, isbn, price, quantity in cls_exp:
+        books.append(Book(title, isbn, price, quantity))
+
+    for book in books:
+        print(book)
 
 
 if __name__ == "__main__":
