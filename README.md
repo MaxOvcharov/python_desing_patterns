@@ -14,3 +14,4 @@
 - Bridge (Мост) - [Python examples](/structural_patterns/bridge);
 - Composite (Компоновщик) - [Python examples](/structural_patterns/composite);
 - Decorator (Декоратор) - [Python examples](/structural_patterns/decorator);
+- Facade (Фасад) - [Python examples](/structural_patterns/facade);
