@@ -15,3 +15,4 @@
 - Composite (Компоновщик) - [Python examples](/structural_patterns/composite);
 - Decorator (Декоратор) - [Python examples](/structural_patterns/decorator);
 - Facade (Фасад) - [Python examples](/structural_patterns/facade);
+- Flyweight (Приспособленец) - [Python examples](/structural_patterns/flyweight);
