@@ -16,3 +16,4 @@
 - Decorator (Декоратор) - [Python examples](/structural_patterns/decorator);
 - Facade (Фасад) - [Python examples](/structural_patterns/facade);
 - Flyweight (Приспособленец) - [Python examples](/structural_patterns/flyweight);
+- Proxy (Заместитель) - [Python examples](/structural_patterns/proxy);
