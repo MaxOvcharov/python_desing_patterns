@@ -1,8 +1,9 @@
 """
+Example from - https://sourcemaking.com/design_patterns/proxy
+
 Provide a surrogate or placeholder for another object to control access
 to it or add other responsibilities.
 
-Example from - https://sourcemaking.com/design_patterns/proxy
 """
 
 import abc
