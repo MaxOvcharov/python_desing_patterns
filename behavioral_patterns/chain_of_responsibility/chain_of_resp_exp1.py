@@ -18,6 +18,7 @@ class HttpHandler(metaclass=abc.ABCMeta):
     def handle(self, code):
         pass
 
+
 class Http404Handler(HttpHandler):
 
     def handle(self, code):
