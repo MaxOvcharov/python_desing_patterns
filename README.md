@@ -17,3 +17,7 @@
 - Facade (Фасад) - [Python examples](/structural_patterns/facade);
 - Flyweight (Приспособленец) - [Python examples](/structural_patterns/flyweight);
 - Proxy (Заместитель) - [Python examples](/structural_patterns/proxy);
+
+### Behavioral patterns (Поведенчиские паттерны) ###
+
+- Chain of Responsibility (Цепочка обязанностей) - [Python examples](/behavioral_patterns/chain_of_responsibility);
