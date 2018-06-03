@@ -1,6 +1,8 @@
 # coding: utf-8
 
 """
+EXAMPLE - https://github.com/pkolt/design_patterns/blob/master/behavior/command.py
+
 Команда (Command, Action, Transaction) - паттерн поведения объектов.
 
 Инкапсулирует запрос как объект, позволяя тем самым задавать параметры клиентов
