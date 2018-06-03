@@ -21,3 +21,4 @@
 ### Behavioral patterns (Поведенчиские паттерны) ###
 
 - Chain of Responsibility (Цепочка обязанностей) - [Python examples](/behavioral_patterns/chain_of_responsibility);
+- Command (Комманда) - [Python examples](/behavioral_patterns/cammand_pattern);
