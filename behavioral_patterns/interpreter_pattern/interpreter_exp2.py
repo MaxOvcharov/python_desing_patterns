@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 """
-EXAMPLE - https://github.com/azmikamis/pipbook/blob/master/any/genome1.py
+EXAMPLE - https://github.com/pkolt/design_patterns/blob/master/behavior/interpreter.py
 Интерпретатор (Interpreter) - паттерн поведения классов.
 
 Для заданного языка определяет представление его грамматики,
