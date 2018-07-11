@@ -9,7 +9,7 @@ EXAMPLE - https://github.com/pkolt/design_patterns/blob/master/behavior/interpre
 """
 
 
-class RomanNumeralInterpreter(object):
+class RomanNumeralInterpreter():
     """Интерпретатор римских цифр"""
 
     def __init__(self):
