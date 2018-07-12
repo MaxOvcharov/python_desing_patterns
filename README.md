@@ -23,3 +23,4 @@
 - Chain of Responsibility (Цепочка обязанностей) - [Python examples](/behavioral_patterns/chain_of_responsibility);
 - Command (Комманда) - [Python examples](/behavioral_patterns/cammand_pattern);
 - Interpreter (Интерпретатор) - [Python examples](/behavioral_patterns/interpreter_pattern);
+- Iterator (Итератор) - [Python examples](/behavioral_patterns/iterator_pattern);
