@@ -24,3 +24,4 @@
 - Command (Комманда) - [Python examples](/behavioral_patterns/cammand_pattern);
 - Interpreter (Интерпретатор) - [Python examples](/behavioral_patterns/interpreter_pattern);
 - Iterator (Итератор) - [Python examples](/behavioral_patterns/iterator_pattern);
+- Mediator (Посредник) - [Python examples](/behavioral_patterns/mediator_pattern);
