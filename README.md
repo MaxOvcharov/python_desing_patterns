@@ -26,3 +26,4 @@
 - Iterator (Итератор) - [Python examples](/behavioral_patterns/iterator_pattern);
 - Mediator (Посредник) - [Python examples](/behavioral_patterns/mediator_pattern);
 - Memento (Хранитель) - [Python examples](/behavioral_patterns/memento_pattern);
+- Observer (Наблюдатель) - [Python examples](/behavioral_patterns/observer_pattern);
