@@ -27,3 +27,4 @@
 - Mediator (Посредник) - [Python examples](/behavioral_patterns/mediator_pattern);
 - Memento (Хранитель) - [Python examples](/behavioral_patterns/memento_pattern);
 - Observer (Наблюдатель) - [Python examples](/behavioral_patterns/observer_pattern);
+- State (Состояние) - [Python examples](/behavioral_patterns/state_pattern);
