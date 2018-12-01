@@ -29,3 +29,4 @@
 - Observer (Наблюдатель) - [Python examples](/behavioral_patterns/observer_pattern);
 - State (Состояние) - [Python examples](/behavioral_patterns/state_pattern);
 - Strategy (Стратегия) - [Python examples](/behavioral_patterns/strategy_pattern);
+- Template method (Шаблонный метод) - [Python examples](/behavioral_patterns/template_method_pattern);
