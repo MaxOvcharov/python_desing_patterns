@@ -30,3 +30,4 @@
 - State (Состояние) - [Python examples](/behavioral_patterns/state_pattern);
 - Strategy (Стратегия) - [Python examples](/behavioral_patterns/strategy_pattern);
 - Template method (Шаблонный метод) - [Python examples](/behavioral_patterns/template_method_pattern);
+- Visitor (Посетитель) - [Python examples](/behavioral_patterns/visitor_pattern);
